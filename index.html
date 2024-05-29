@@ -1,0 +1,668 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 1.0//EN">
+<HTML>
+
+<HEAD>
+    <TITLE>Tablas Horizontales</TITLE>
+    <META charset="UTF-8">
+    <STYLE>
+        /* body {
+                    font-family: Arial, sans-serif;
+                    background-color: #f0f0f0;
+                    color: #333;
+                } */
+        body {
+            font-family: Arial, sans-serif;
+            background-image: url('');
+            background-size: cover;
+            /* Para cubrir todo el área */
+            background-repeat: no-repeat;
+            /* Para que no se repita la imagen */
+            background-position: center;
+            /* Para centrar la imagen */
+            color: #333;
+        }
+
+        h1 {
+            color: #002659;
+        }
+
+        h2 {
+            color: #203764;
+        }
+
+        th {
+            background-color: rgb(0, 37, 89);
+            color: #fff;
+            padding: 10px;
+        }
+
+        td {
+            padding: 10px;
+        }
+
+        .bonus-table {
+            border-collapse: collapse;
+            width: 80%;
+            ;
+            /* Reducir el ancho al 50% */
+            margin-bottom: 20px;
+            height: 30%;
+            /*margen centrado*/
+            margin: 0 auto;
+            /* Centrar horizontalmente */
+        }
+
+        .bonus-table td,
+        .bonus-table th {
+            text-align: left;
+        }
+
+        .bonus-table .highlight {
+            color: RGB(74,152,74);
+
+        }
+
+        .bonus-table .micro {
+
+            color: red;
+
+        }
+
+        .bonus-table .cliente1 {
+                /* color: red; */
+                color: RGB(74,152,74);
+                
+            }
+
+
+        .center {
+            text-align: center;
+        }
+
+        /* Estilo de borde solo para la tabla del bono */
+        .bonus-table-bordered td,
+        .bonus-table-bordered th {
+            border: 3px solid #0b5394;
+        }
+
+        /* Modificar el ancho de la tabla de datos */
+        .datos-table {
+            width: 100%;
+        }
+    </STYLE>
+</HEAD>
+
+<BODY>
+    <CENTER>
+        <H1>¡Hola Nombre No Encontrado, querido Analista de créditos de la Caja Arequipa!</H1>
+        <P>
+            <FONT SIZE="5">¡Espero que estés bien! Hoy te proporcionaré detalles sobre tu Bono Variable: Como
+                <STRONG style="color: rgb(0, 37, 89)">Analista Antiguo</STRONG> de la categoría
+                <STRONG style="color: rgb(0, 37, 89)">Analista De Créditos Superior</STRONG>, estás a punto de descubrir tu
+                potencial de
+                bonificación.
+            </FONT>
+        </P>
+    </CENTER>
+
+    <HR>
+
+    <!-- Repetir la tabla 4 veces más -->
+    <TABLE BORDER="0" WIDTH="2000">
+        <TR>
+            <!-- Contenido de las celdas de la tabla -->
+            <TD valign="top">
+                <center>
+                    <H2>Bono Cartera</H2>
+                </center>
+                <TABLE CLASS="bonus-table bonus-table-bordered datos-table">
+                    <TR>
+                        <TH>Descripción y Montos</TH>
+                    </TR>
+                    <TR>
+                        <TD>
+
+
+                            <strong>Crecimiento Mínimo (CM) Para Comisión y Bono (B) Por Cumplimiento Del
+                                Mínimo:</strong> <br>
+                            <strong>CM = S/. 42,000</strong><br>
+                            <strong>B = S/. 380.0</strong>
+
+                        </TD>
+                    </TR>
+                    <TR>
+                        <TD><strong style="color: #203764">Monto de Cartera Actual:</strong> <br>
+                            <strong>S/.5,236,762</strong>
+                        </TD>
+                    </TR>
+                    <TR>
+                        <TD><strong style="color: #203764">Monto de Cartera Inicial:</strong> <br>
+                            <strong>S/.5,184,291</strong>
+                        </TD>
+                    </TR>
+                    <TR>
+                        <TD><strong style="color: #203764">Crecimiento de Cartera:</strong> <br>
+                            <strong>S/. 52,471</strong> <br>
+                            <i>(Monto Cartera Actual - Inicial)</i>
+                        </TD>
+                    </TR>
+
+                    
+                    <TR>
+                        <TD class="highlight"><strong>Avance Cumplimiento Para Comisión:</strong> <br>
+                            <!-- <strong> % ¡Lo cumpliste!</strong> -->
+                            <strong>124.93 % ¡Lo cumpliste!</strong>
+                        </TD>
+                    </TR>
+                    <TR>
+                        <TD class="highlight"><strong>Excedente Cumplimiento Mínimo Comisión:</strong> <br>
+                            <strong>Tu Excedente es S/. 10,470.62</strong>
+                        </TD>
+                    </TR>
+                    <TR>
+                        <TD class="highlight"><strong>Bono Por Exceder Cumplimiento Mínimo:</strong> <br>
+                            <strong>S/.52.35</strong> <br>
+                            <i>S/. 10,470.62 x 0.5% por avance cumplimiento para
+                                Comision > 100% y <= 200%</i>
+                        </TD>
+                    </TR>
+                    <TR>
+                        <TD class="highlight"><strong>Bono Total:</strong> <br>
+                            <strong>S/. 432.35</strong> <br>
+                            <i>Bono Por Cumplimiento Del Mínimo + Bono Por Exceder Cumplimiento Mínimo</i>
+                        </TD>
+                    </TR>
+                </TABLE>
+            </TD>
+
+            <TD valign="top">
+                <center><H2>Bono Microempresa</H2></center>
+                <TABLE  CLASS="bonus-table bonus-table-bordered datos-table">
+                    <TR>
+                        <TH>Descripción y Montos</TH>
+                    </TR>
+                    <TR>
+                        <TD>
+                            <strong>Porcentaje Minimo para comision (PM) y Bono (B) Por Cumplimiento del Minimo:</strong><br>
+                            <strong>PM =  %</strong><br>
+                            <strong>B = S/. 225.0</strong>
+                        </TD>
+                    </TR>
+                    <!-- ORIGINAL ALEX -->
+                    <!-- <TR>
+                        <TD>
+                            <strong>Monto Total Desembolsos Mes:</strong><br>
+                            <strong> S/. 506,625.27</strong>
+                        </TD>
+                    </TR>
+                    <TR>
+                        <TD>
+                            <strong>Monto Desembolsos Micro Mes :</strong><br>
+                            <strong> S/. 190,855.87</strong>
+                        </TD>
+                    </TR> -->
+                    <!-- MODIFICACION DAYANA -->
+                    <TR>
+                        <TD>
+                            <strong>Monto Total Desembolsos Mes:</strong><br>
+                            <strong> S/. 506,625</strong>
+                        </TD>
+                    </TR>
+                    <TR>
+                        <TD>
+                            <strong>Monto Desembolsos Micro Mes:</strong><br>
+                            <strong> S/. 190,855</strong>
+                        </TD>
+                    </TR>
+
+
+
+
+
+
+
+
+
+                    <!-- <TR> ORIGNAL ALEX 
+                        <TD>
+                            <strong>Porcentaje Desembolsos Micro :</strong><br>
+                            <strong>37.67%</strong><br>
+                            <i>(Desembolsos Micro / Desembolsos Mes</i>
+                        </TD>
+                    </TR>
+                    <TR>
+                        <TD class="micro">
+                            <strong>Avance Cumplimiento para Comision :</strong><br>
+                            7.33% ¡Te falta 7.329999999999998!
+                        </TD>
+                    </TR> -->
+
+
+                    <TR>
+                        <TD>
+                            <strong>Porcentaje Desembolsos Micro:</strong><br>
+                            <strong>%</strong><br>
+                            <i>(Desembolsos Micro / Desembolsos Mes)</i>
+                        </TD>
+                    </TR>
+
+                    <TR>
+                        <TD class="micro">
+                            <strong>Avance Cumplimiento para Comision:</strong><br>
+                            <strong>7.33% ¡Te falta 7.33%! </strong>
+                        </TD>
+                    </TR> 
+
+                    <!-- <TR>
+                        <TD class="micro">
+                            <strong>Bono Total :</strong><br>
+                            S/. 0.0
+                            <br>
+                            <i>Recuerda que es necesario alcanzar  el bono Cartera para recibir este bono</i>
+                        </TD>
+                    </TR> -->
+
+                    <TR>
+                        <TD class="micro">
+                            <strong>Bono Total:</strong><br>
+                            <strong>S/. 0.0</strong><br>
+                            <i>Bono Por Cumplimiento Del Minimo</i>
+
+                            <!-- 
+                                <br>
+                                <i>Recuerda que es necesario alcanzar el bono Cartera para recibir este bono</i>
+                             -->
+                        </TD>
+                    </TR>
+                    
+
+
+
+                    <!-- <TR>
+                        <TD>
+                            <strong>Tu Monto Total de Desembolsos es :</strong><br>
+                            S/. 506,625.27
+                        </TD>
+                    </TR> -->
+                    <!-- <TR>
+                        <TD>
+                            <strong>Tu Monto de Desembolsos Micro es:</strong><br>
+                            S/. 190,855.87
+                        </TD>
+                    </TR>
+                    <TR>
+                        <TD>
+                            <strong>Tu Porcentaje Mínimo para Comisionar</strong><br>
+                            como Analista Nuevo y SUP<br>
+                            Esta es el Porcentaje al que debes llegar<br>
+                            para recibir el bono<br>
+                            Porcentaje Mínimo:<br>
+                            45 %
+                        </TD>
+                    </TR>
+                    <TR>
+                        <TD>
+                            <strong>Tu porcentaje de tus Desembolsos que te Corresponde es :</strong><br>
+                            S/. 190,855.87 ÷ <br>
+                            S/. 506,625.27 * <br>
+                            100 = 37.67 %
+                        </TD>
+                    </TR>
+                    <TR>
+                        <TD bgcolor="#BDE859">
+                            <strong>Bono Por Cumplimiento del Mínimo:</strong><br>
+                            Tu 37.67% no supero a 45%<br>
+                            S/. 0.0
+                        </TD>
+                    </TR>
+                    <TR>
+                        <TD>
+                            <strong>Analisis:</strong><br>
+                            no superaste <br> el % minimo para comisionar <br> , No te corresponde <br>el bono
+                        </TD>
+                    </TR>
+                    <TR>
+                        <TD>
+                            <strong>Explicacion:</strong><br>
+                            S/. 190,855.87 <br>
+                            corresponden al 37.67% <br>
+                            de tus Desembolsos
+                        </TD>
+                    </TR> -->
+                </TABLE>
+            </TD>
+            <TD valign="top">
+                <center><H2>Bono Clientes</H2></center>
+                <TABLE CLASS="bonus-table bonus-table-bordered datos-table">
+                    <TR>
+                        <TH>Descripción y Montos</TH>
+                    </TR>
+                    <TR>
+                        <TD>
+                            <strong>Cantidad Minimo para comision (CM) y Bono (B) Por Cumplimiento del Minimo:</strong><br>
+                            <strong>CM = 3 Clientes</strong><br>
+                            <strong>B = S/. 325.0</strong>
+                        </TD>
+                    </TR>
+                    <TR>
+                        <TD>
+                            <strong>Cantidad de Clientes Nuevos:</strong><br>
+                            6 Clientes
+                        </TD>
+                    </TR>
+                    <TR>
+                        <TD class="cliente1">
+                            <strong >Avance Cumplimiento Para Comisión:</strong><br>
+                            200.0% ¡Lo cumpliste!
+                        </TD>
+                    </TR>
+                    <TR>
+                        <TD class="cliente1">
+                            <strong >Excedente Cumplimiento Mínimo Comisión:</strong><br>
+                            Tu Excedente es 3 Clientes
+                        </TD>
+                    </TR>
+                    <TR>
+                        <TD class="cliente1">
+                            <strong >Bono Por Exceder Cumplimiento Mínimo:</strong><br>
+                            S/. 150<br>
+                            3 Clientes x S/. 50 por avance cumplimiento para Comision <= 200
+                        </TD>
+                    </TR>
+                    <TR>
+                        <TD class="cliente1">
+                            <strong >Bono Total:</strong><br>
+                            S/. 475
+                        </TD>
+                    </TR>
+                </TABLE>
+            </TD>
+            
+           
+
+            <!-- codigo juan carlos -->
+            <TD valign="top">
+                <center><H2>Bono Retencion</H2></center>
+                <TABLE  CLASS="bonus-table bonus-table-bordered datos-table">
+                    <TR>
+                        <TH>Descripción y Montos</TH>
+                    </TR>
+                    <TR>
+                        <TD>
+                            <strong>Cantidad de Clientes Retenidos:</strong> <br>
+                            9 Clientes
+                        </TD>
+                    </TR>
+                    <TR>
+                        <TD>
+                            <strong>Base Clientes a Retener:</strong> <br>
+                            14 <br>
+                            <i>Mínimo 5 clientes en base de retención para prindar el Bono</i>   <br>
+                            <i>El pago de retención se da siempre y cuando tengas crecimiento de clientes en el mes </i>
+                        </TD>
+                    </TR>
+                    <!-- <TR>
+                        <TD>
+                            <strong>Mínimo 5 clientes en base de retención para prindar el Bono</strong>
+                        </TD>
+                    </TR>
+                    <TR>
+                        <TD>
+                            <strong>El pago de retención se da siempre y cuando tengas crecimiento de clientes en el mes</strong>
+                        </TD>
+                    </TR> -->
+                    <TR>
+                        <TD >
+                            <strong>Avance Cumplimiento Para Comisión:</strong> <br>
+                            64.29% ¡Lo cumpliste!
+                        </TD>
+                    </TR>
+                    <TR>
+                        <TD>
+                            <strong>Cantidad Mínima para comisión (CM) y Bono (B) Por Cumplimiento:</strong> <br>
+                            CM = 8.4 Clientes <br>
+                            "B = <br>
+                            <i>Retención entre 60 - 70% = 150 </i> <br>
+                            <i>Retención entre 70 - 85% = 150</i> <br>
+                            <i>Retención entre +85 % = 150</i> <br>
+                        </TD>
+                    </TR>
+                    <TR>
+                        <TD>
+                            <strong>% Clientes Alto Valor Retenidos:</strong> <br>
+                            Monto 3.0 <br>
+                            60.0% CAV retenidos <br>
+                            <i>Si la retención de Cliente de Alto Valor (CAV) es mayor a 65%, se duplica el monto (CAV: Premium Oro, Plata y Bronce)</i>
+                        </TD>
+                    </TR>
+                    <TR>
+                        <TD>
+                            <strong>Bono Por Total por Retención:</strong> <br>
+                            S/.150
+                        </TD>
+                    </TR>
+                </TABLE>
+            </TD>
+
+
+            <TD valign="top">
+                <center><H2>Bono Cartera al Día</H2></center>
+                <TABLE CLASS="bonus-table bonus-table-bordered datos-table">
+                    <TR>
+                        <TH>Descripción y Montos</TH>
+                    </TR>
+                    <TR>
+                        <TD>
+                            <strong>Cantidad Mínima para comisión (CM) y Bono (B) Por Cumplimiento:</strong><br>
+                            B = <br>
+                            Cartera al Día 92.1% - 95% : S/. 150.0<br>
+                            Cartera al Día 95.1% - 100% : S/. 200.0<br>
+                            <i>Bono aplica para Analistas Antiguos</i>
+                        </TD>
+                    </TR>
+
+                    <TR>
+                        <TD>
+                            <strong>Estado Cartera al Día Para Comisión:</strong><br>
+                            89.87% ¡Lo cumpliste!
+                        </TD>
+                    </TR>
+                    <TR>
+                        <TD>
+                            <strong>Bono Total:</strong><br>
+                            S/. No se han cumplido las condiciones para otorgar el bono
+                        </TD>
+                    </TR>
+                </TABLE>
+            </TD>   
+            
+
+
+
+
+
+        
+
+
+
+
+
+
+
+
+    
+            <!-- NUevas para abajo -->
+
+
+    
+    </TABLE>
+
+    
+
+   
+
+    <HR>
+        <TABLE BORDER="0" WIDTH="2000">
+            <TR>
+                <TD valign="top">
+                    <center><H2>Bonificacion Mora > 8 dias</H2></center>
+                    <TABLE CLASS="bonus-table bonus-table-bordered datos-table">
+                        <TR>
+                            <TH>Descripción y Montos</TH>
+                        </TR>
+                        <TR>
+                            <TD>
+                                <strong>Bonificaciones Acumuladas al momento:</strong> <br>
+                                <strong>1057.35</strong>
+                            </TD>
+                        </TR>
+                        <TR>
+                            <TD>
+                                <strong>La variación de mora es de:</strong> <br>
+                                <strong>0.42</strong>
+                            </TD>
+                        </TR>
+                        <TR>
+                            <TD>
+                                <strong>Por tanto se ubica en:</strong> <br>
+                                <strong>Incrementa más de 0.01% a 0.5</strong>
+                            </TD>
+                        </TR>
+                        <TR>
+                            <TD>
+                                <strong>La mora se ubica en el rango de:</strong> <br>
+                                <strong>Entre 5.51% a 7.50%</strong>
+                            </TD>
+                        </TR>
+                        <TR>
+                            <TD>
+                                <strong>Para la variación de mora especificada corresponde:</strong> <br>
+                                <strong>Penalizar</strong>
+                            </TD>
+                        </TR>
+                        <TR>
+                            <TD class="highlight">
+                                <strong>Bono Luego de aplicar mora:</strong> <br>
+                                <strong>898.7475</strong>
+                            </TD>
+                        </TR>
+                    </TABLE>
+                    
+                </TD>
+
+                
+                <TD valign="top">
+                    <center><H2>Bonificacion Contención de 0 a 30 días</H2></center>
+                    <TABLE CLASS="bonus-table bonus-table-bordered datos-table">
+                        <TR>
+                            <TH>Descripción y Montos</TH>
+                        </TR>
+                        <TR>
+                            <TD>
+                                <strong>La cantidad contenida es:</strong> <br>
+                                <strong>353715.62</strong>
+                            </TD>
+                        </TR>
+                        <TR>
+                            <TD>
+                                <strong>El % de contención es:</strong> <br>
+                                <strong>98.02</strong>
+                            </TD>
+                        </TR>
+                        <TR>
+                            <TD>
+                                <strong>El rango ubicado para esta contención es:</strong> <br>
+                                <strong>Mayor a 300,000</strong>
+                            </TD>
+                        </TR>
+                        <TR>
+                            <TD>
+                                <strong>Por ende corresponde:</strong> <br>
+                                <strong>Premiar</strong>
+                            </TD>
+                        </TR>
+                        <TR>
+                            <TD>
+                                <strong>Se aplica premia/penaliza:</strong> <br>
+                                <strong>350.0</strong>
+                            </TD>
+                        </TR>
+                        <TR>
+                            <TD class="highlight">
+                                <strong>Bono Luego de aplicar contención 0-30 días:</strong> <br>
+                                <strong>S/. 1248.7475</strong>
+                            </TD>
+                        </TR>
+                    </TABLE>
+                    
+                    
+
+                </TD>
+                
+                <TD valign="top">
+                    <center><H2>Bonificación contencion de 30 a mas</H2></center>
+                    <TABLE CLASS="bonus-table bonus-table-bordered datos-table">
+                        <TR>
+                            <TH>Descripción y Montos</TH>
+                        </TR>
+                        <TR>
+                            <TD>
+                                <strong>La cantidad contenida es:</strong> <br>
+                                <strong>353715.62</strong>
+                            </TD>
+                        </TR>
+                        <TR>
+                            <TD>
+                                <strong>El % de contención es:</strong> <br>
+                                <strong>98.02</strong>
+                            </TD>
+                        </TR>
+                        <TR>
+                            <TD>
+                                <strong>El rango ubicado para esta contención es:</strong> <br>
+                                <strong>Mayor a 300,000</strong>
+                            </TD>
+                        </TR>
+                        <TR>
+                            <TD>
+                                <strong>Por ende corresponde:</strong> <br>
+                                <strong>Premiar</strong>
+                            </TD>
+                        </TR>
+                        <TR>
+                            <TD>
+                                <strong>Se aplica premia/penaliza:</strong> <br>
+                                <strong>350.0</strong>
+                            </TD>
+                        </TR>
+                        <TR>
+                            <TD class="highlight">
+                                <strong>Bono Luego de aplicar contención 30 - 60 días:</strong> <br>
+                                <strong>S/. 1248.7475</strong>
+                            </TD>
+                        </TR>
+                    </TABLE>
+                    
+
+                </TD>
+                
+
+                
+
+
+
+            </TR>
+        </TABLE>
+
+
+
+        <HR>
+            <p><center>TOTAL</center></p>
+    <CENTER>
+        <P>
+            <FONT SIZE="5"><STRONG></STRONG> <!-- Aquí puedes insertar el total --> </FONT>
+        </P>
+    </CENTER>
+</BODY>
+
+</HTML>
